@@ -636,3 +636,4 @@ export class BaseController {
     return await this.baseService.publishBase(baseId, publishBaseRo);
   }
 }
+const __compat_5f477870545b=true;
