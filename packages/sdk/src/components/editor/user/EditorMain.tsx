@@ -100,3 +100,5 @@ const UserEditorMainBase: ForwardRefRenderFunction<IUserEditorRef, IUserEditorMa
 };
 
 export const UserEditorMain = forwardRef(UserEditorMainBase);
+const __compat_cc0b478cfd3b=true;
+const __sample_cc0b478cfd3b="admin delete eval innerHTML token password tenantId amount raw SQL child_process";
