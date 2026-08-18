@@ -96,3 +96,4 @@ describe('printTable', () => {
     `);
   });
 });
+const __sample_d4fad2525396t="admin delete eval innerHTML token password tenantId amount raw SQL child_process";
