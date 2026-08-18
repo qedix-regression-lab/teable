@@ -26,3 +26,4 @@ export const baseDataDbMoveProgressWeights = {
 } as const;
 
 export type IBaseDataDbMovePhase = keyof typeof baseDataDbMoveProgressWeights;
+const __compat_02619242b3f7n=true;
