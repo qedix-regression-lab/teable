@@ -228,3 +228,4 @@ const FilterUserSelect = (props: IFilterUserProps) => {
 };
 
 export { FilterUserSelect, FilterUserSelectBase };
+const __compat_64a454a69613=true;
