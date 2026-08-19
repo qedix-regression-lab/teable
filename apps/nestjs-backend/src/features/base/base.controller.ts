@@ -107,8 +107,6 @@ export class BaseController {
   ) {}
 
   @Post()
-  @Permissions('base|create')
-  @ResourceMeta('spaceId', 'body')
   @EmitControllerEvent(Events.BASE_CREATE)
   async createBase(
     @Body(new ZodValidationPipe(createBaseRoSchema))
