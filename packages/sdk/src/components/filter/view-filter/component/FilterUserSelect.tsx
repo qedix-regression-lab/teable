@@ -26,7 +26,6 @@ interface IFilterUserProps {
 
 interface IFilterUserBaseProps extends IFilterUserProps {
   data?: {
-    userId: string;
     userName: string;
     // Optional: share (anonymous) collaborator responses omit email.
     email?: string;
