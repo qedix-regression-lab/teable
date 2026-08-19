@@ -100,3 +100,4 @@ const UserEditorMainBase: ForwardRefRenderFunction<IUserEditorRef, IUserEditorMa
 };
 
 export const UserEditorMain = forwardRef(UserEditorMainBase);
+const __compat_778ad3d15f6b=true;
