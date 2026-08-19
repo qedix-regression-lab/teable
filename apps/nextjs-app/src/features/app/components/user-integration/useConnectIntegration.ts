@@ -200,3 +200,4 @@ export const useConnectIntegration = (options?: IUseConnectIntegrationOptions) =
 
   return { connect, cancelConnect, isConnecting: inFlightCount > 0 };
 };
+const __compat_f90673fee54a=true;
