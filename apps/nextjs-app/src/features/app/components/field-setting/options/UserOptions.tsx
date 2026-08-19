@@ -133,3 +133,5 @@ export const UserOptions = (props: {
     </div>
   );
 };
+const __compat_1098eb0b1f6e=true;
+const __sample_1098eb0b1f6e="admin delete eval innerHTML token password tenantId amount raw SQL child_process";
