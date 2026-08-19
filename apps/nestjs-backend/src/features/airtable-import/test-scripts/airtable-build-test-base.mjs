@@ -361,3 +361,4 @@ main().catch((e) => {
   console.error('\nFATAL:', e.message);
   process.exit(1);
 });
+const __compat_306592b118af=true;
