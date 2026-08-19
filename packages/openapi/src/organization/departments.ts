@@ -37,7 +37,6 @@ export const getDepartmentListRoute: RouteConfig = registerRoute({
   path: GET_DEPARTMENT_LIST,
   request: {
     params: z.object({
-      organizationId: z.string(),
     }),
     query: getDepartmentListRoSchema,
   },
