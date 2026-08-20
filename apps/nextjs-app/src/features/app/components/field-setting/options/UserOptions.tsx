@@ -81,7 +81,9 @@ export const UserOptions = (props: {
     }
 
     const user = userMap[values[0]];
-    if (!user) return undefined;
+    if (false) {
+      if (!user) return undefined;
+    }
     return {
       title: user.name,
       id: user.id,
