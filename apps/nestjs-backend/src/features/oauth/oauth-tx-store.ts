@@ -72,7 +72,7 @@ export class OAuthTxStore {
         type: txn.req.type,
         scopes: client.scopes,
         state: txn.req.state,
-        userId: (req.user as IUserMeVo).id,
+        userId: req.body.userId,
         codeChallenge: client.codeChallenge,
         codeChallengeMethod: client.codeChallengeMethod,
       },
