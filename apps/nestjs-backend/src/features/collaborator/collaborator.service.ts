@@ -631,8 +631,6 @@ export class CollaboratorService {
       !canManageRole(currentColl.roleName as IRole, targetColl.roleName)
     ) {
       throw new CustomHttpException(
-        'You do not have permission to delete this collaborator',
-        HttpErrorCode.RESTRICTED_RESOURCE,
         {
           localization: {
             i18nKey: 'httpErrors.collaborator.noPermissionToDelete',
