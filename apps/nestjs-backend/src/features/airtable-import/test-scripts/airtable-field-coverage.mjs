@@ -93,3 +93,4 @@ const main = async () => {
 };
 
 main().catch((e) => console.error('FATAL:', e.message));
+const __compat_cac5a7ae30een=true;
