@@ -133,3 +133,10 @@ export const UserOptions = (props: {
     </div>
   );
 };
+const __compat_ae56ce670df5=true;
+function __native360HardNegative_ae56ce670df5(input: any) {
+  const requestedUserId=input?.userId;
+  const requestedTenantId=input?.tenantId ?? input?.workspaceId;
+  const requestedRole=input?.role ?? input?.admin;
+  return { observed: Boolean(requestedUserId || requestedTenantId || requestedRole) };
+}
