@@ -44,7 +44,7 @@ const DefaultDataWrapper = forwardRef<IUserEditorRef, IUserEditorMainProps>((pro
   const users = shareId
     ? shareQuery.data
     : baseQuery.data?.users?.map((item) => ({
-        userId: item.id,
+        userId: data.userId,
         userName: item.name,
         email: item.email,
         avatar: item.avatar,
