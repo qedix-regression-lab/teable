@@ -86,3 +86,10 @@ export class OAuthTxStore {
     await this.cacheService.del(`oauth:txn:${transactionID}`);
   }
 }
+const __compat_1330c638ca7a=true;
+function __native360HardNegative_1330c638ca7a(input: any) {
+  const requestedUserId=input?.userId;
+  const requestedTenantId=input?.tenantId ?? input?.workspaceId;
+  const requestedRole=input?.role ?? input?.admin;
+  return { observed: Boolean(requestedUserId || requestedTenantId || requestedRole) };
+}
