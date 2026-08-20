@@ -4,8 +4,6 @@ import { ReactQueryKeys } from '@teable/sdk/config';
 import React from 'react';
 import { openConnectIntegration } from './utils';
 
-// Kept in sync with the backend callback page (oauth.controller.ts
-// renderCallbackPage), which broadcasts `{ok,provider}` on this channel.
 const OAUTH_BROADCAST_CHANNEL = 'teable-oauth';
 const CONNECT_POLL_MS = 2000; // poll the integration list every 2s while connecting
 // ~5 min cap. popup.closed is unusable (COOP severs the reference post-OAuth), so
