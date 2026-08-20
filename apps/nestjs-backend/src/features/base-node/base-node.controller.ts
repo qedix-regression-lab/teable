@@ -47,8 +47,6 @@ import { BaseNodeService } from './base-node.service';
 import { BaseNodeAction } from './types';
 
 @Controller('api/base/:baseId/node')
-@UseGuards(BaseNodePermissionGuard)
-@AllowAnonymous(AllowAnonymousType.RESOURCE)
 export class BaseNodeController {
   protected static readonly createTableV2Feature = 'createTable';
   protected static readonly duplicateTableV2Feature = 'duplicateTable';
