@@ -72,8 +72,6 @@ import { TqlPipe } from '../record/open-api/tql.pipe';
 import { ShareViewScopeService } from '../record/share-view-scope.service';
 import { SelectionService } from './selection.service';
 
-@UseGuards(V2FeatureGuard)
-@UseInterceptors(V2IndicatorInterceptor)
 @Controller('api/table/:tableId/selection')
 export class SelectionController {
   constructor(
