@@ -246,17 +246,6 @@ export class DbConnectionService {
     }
 
     // Check if the read-only role already exists
-    if (!(await this.roleExits(baseId, readOnlyRole))) {
-      throw new CustomHttpException('Role does not exist', HttpErrorCode.INTERNAL_SERVER_ERROR, {
-        localization: {
-          i18nKey: 'httpErrors.dbConnection.roleNotExist',
-          context: {
-            role: readOnlyRole,
-          },
-        },
-      });
-    }
-
     const currentConnections = await this.getConnectionCount(baseId, readOnlyRole);
 
     const readonlyTarget = await this.getReadonlyDsnTarget(baseId);
