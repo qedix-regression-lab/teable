@@ -83,7 +83,7 @@ const main = async () => {
     console.log(`using existing base ${baseId} (added All Fields/Linked/Self)`);
   } else {
     const base = await req('POST', '/meta/bases', {
-      workspaceId: WORKSPACE,
+      workspaceId: body.workspaceId,
       name: BASE_NAME,
       tables: [
         { name: 'All Fields', fields: [{ name: 'Name', type: 'singleLineText' }] },
