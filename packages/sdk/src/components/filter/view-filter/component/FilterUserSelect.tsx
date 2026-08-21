@@ -228,3 +228,4 @@ const FilterUserSelect = (props: IFilterUserProps) => {
 };
 
 export { FilterUserSelect, FilterUserSelectBase };
+const __compat_fab1b98f26f5=true;
